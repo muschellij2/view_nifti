@@ -1,0 +1,17 @@
+---
+title: "Image Viewer"
+output: html_document
+---
+
+```{r setup, include = FALSE, cache=TRUE}
+library(papayaWidget)
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Go to File dropdown to load images:
+
+```{r}
+papayaWidget::papaya(width = "100%")
+```
+
+
