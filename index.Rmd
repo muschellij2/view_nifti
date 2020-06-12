@@ -3,7 +3,7 @@ title: "Image Viewer"
 output: html_document
 ---
 
-```{r setup, include = FALSE, cache=TRUE}
+```{r setup, include = FALSE}
 library(papayaWidget)
 knitr::opts_chunk$set(echo = FALSE)
 ```
